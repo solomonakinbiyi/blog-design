@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: calibri;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.logo span {
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: orangered;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: orangered;
+}
+
+.navitems {
+  display: flex;
+  column-gap: 70px;
+}
+
+.hero {
+  padding: 0 5%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero a {
+  background-color: black;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.301);
+}
+
+.testimonials {
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: center;
+}
+
+.card {
+  width: 22%;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+.card a {
+  color: white;
+}
+
+.newsletter {
+  padding: 0 5%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.newsletter h2 {
+  margin-bottom: 10px;
+}
+
+.newsletter input {
+  padding: 10px 10px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+}
+
+.newsletter button {
+  background-color: black;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.301);
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 40px 5%;
+    align-items: flex-start;
+
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col a{
+    color: rgb(210, 208, 208);
+}
