@@ -7,7 +7,9 @@
 body {
   font-family: calibri;
 }
-
+.bi-list{
+  display: none;
+}
 .navbar {
   background-color: black;
   color: white;
@@ -35,6 +37,7 @@ body {
 }
 
 .navitems {
+  position: relative;
   display: flex;
   column-gap: 70px;
 }
@@ -171,5 +174,27 @@ body {
   }
   .footer-col{
     width: 50%;
+  }
+  .navitems{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+    width: 100%;
+    left: -100%;
+    top: 60px;
+    background-color: rgb(52, 43, 43);
+    height: 25em;
+    transition: 0.3s all ease-in-out;
+  }
+  .bi-list{
+    display: block;
+    cursor: pointer;
+    font-size: 1.7rem;
+  }
+  .active{
+    left: 0;
   }
 }
